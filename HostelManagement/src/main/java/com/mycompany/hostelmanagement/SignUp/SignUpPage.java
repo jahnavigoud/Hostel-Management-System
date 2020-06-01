@@ -444,7 +444,7 @@ public class SignUpPage extends javax.swing.JFrame {
            
             
             signUpPage.setVisible(false);
-            AfterLoginScreen.getAfterLoginScreen(loginId).setVisible(true);
+            AfterLoginScreen.getAfterLoginScreen(profileId).setVisible(true);
             
             
             /** 
