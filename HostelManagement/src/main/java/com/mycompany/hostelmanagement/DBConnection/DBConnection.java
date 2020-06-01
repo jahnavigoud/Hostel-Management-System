@@ -29,7 +29,7 @@ public class DBConnection {
 	try{
 	    Class.forName("com.mysql.jdbc.Driver");
 	    connection = DriverManager.getConnection(DB_URL, USER, PASS);
-            logger.log(Level.INFO,"Database Connected Successfully");
+            logger.log(Level.INFO,"Connected to mysql Database Successfully");
         }
 	catch(Exception e){
 	    logger.log(Level.SEVERE,"Exception occurred while connecting to database");
